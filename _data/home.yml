@@ -32,10 +32,9 @@ project_entries:
 
 
 old_project_entries:
-  - title: Test title
-    url: index
-    desc: Description Text 
-    highlight: NEW
+  - title: Tinkerer's Tower
+    url: tinkerers-tower
+    desc: A friend's bachelor thesis of building an adventure game in Unreal
 
 
 footer_entries:

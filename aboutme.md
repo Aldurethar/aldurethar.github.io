@@ -20,13 +20,12 @@ I also learned Latin in school, although it has been a while since I found any u
 
 In terms of programming languages, I started with Java, but soon switched to C#, where I'm quite comfortable.
 
-In the course of my studies and especially during my master's degree, I have become proficient in C++.
-Within C++, I strongly prefer the more modern style (C++ 11 and up) for its cleaner handling of pointers.
+In the course of my studies and especially during my master's degree, I have become proficient in C++ where I strongly prefer the more modern style (C++ 11 and up) for its cleaner handling of pointers.
 
 ## CV
 
-2014 :          Abitur (German A-Levels) at Karl-Ernst-Gymnasium in Amorbach
+2014:          Abitur (German A-Levels) at Karl-Ernst-Gymnasium in Amorbach
 
-2014 - 2018 :   Bachelor's degree in Computer Science at TU Darmstadt
+2014 - 2018:   Bachelor's degree in Computer Science at TU Darmstadt
 
-2018 - 2022 :   Master's degree in Visual Computing at TU Darmstadt
+2018 - 2022:   Master's degree in Visual Computing at TU Darmstadt

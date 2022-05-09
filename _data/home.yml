@@ -15,7 +15,7 @@ project_entries:
 
   - title: Boron
     url: boron
-    desc: An unfinished experiment about game engine architecture
+    desc: An experiment about game engine architecture
     highlight: WIP
 
   - title: Subdivision Volumes

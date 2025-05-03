@@ -9,6 +9,11 @@ navbar_entries:
     url: art
 
 project_entries:
+  - title: Kaiko P5 Renderer
+    url: kaiko-project-5-renderer
+    desc: Placeholder description
+    background: images/thumbnail_sculpting.jpg
+
   - title: Copperplate
     url: master-thesis
     desc: My master's thesis about hatching in stylized rendering

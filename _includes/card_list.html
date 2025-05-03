@@ -1,7 +1,15 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
 
-    <li class="card">
+    <li class="card"
+		{% if item.background %}
+			style="
+				background-image: url('{{item.background}}'); 
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;"
+		{% endif %}
+	>
       <a href="{{ item.url }}">
         <span class="header">
           {{ item.title }}

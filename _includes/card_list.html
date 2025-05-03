@@ -7,12 +7,10 @@
 		  background-image: url('{{item.background}}'); 
 		  background-repeat: no-repeat;
 		  background-attachment: local;
-		  background-size: cover;"
-		>
-		<div class="backgroundoverlay">
-	  {% else %}
-		>
+		  background-size: cover;
+		  backgound-blend-mode: overlay;"
 	  {% endif %}
+	>
       <a href="{{ item.url }}">
         <span class="header">
           {{ item.title }}
@@ -31,9 +29,6 @@
         </p>
         {% endif %}
       </a>
-	  {% if item.background %}
-	  </div>
-	  {% endif %}
     </li>
 
   {% endfor %}

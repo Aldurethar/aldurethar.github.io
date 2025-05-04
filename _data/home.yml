@@ -10,9 +10,12 @@ navbar_entries:
 
 project_entries:
   - title: Kaiko P5 Renderer
-    url: kaiko-project-5-renderer
-    desc: Placeholder description
-    background: images/thumbnail_sculpting.jpg
+    url: kkp5-renderer
+    desc: The in-house renderer used in a cancelled project at KAIKO
+
+  - title: Kaiko P5 Particles
+    url: kkp5-particles
+    desc: The particle effect runtime and editor used in a cancelled project at KAIKO
 
   - title: Copperplate
     url: master-thesis
@@ -33,7 +36,7 @@ project_entries:
 
   - title: Scopviz
     url: scopviz
-    desc: A group project where we built a graph editor in Java
+    desc: A university group project where we built a graph editor in Java
 
 
 old_project_entries:
@@ -41,6 +44,11 @@ old_project_entries:
     url: tinkerers-tower
     desc: A friend's bachelor thesis of building an adventure game in Unreal
 
+art_entries:
+  - title: Sculpting Exercises
+    url: art/sculpting-Exercises
+    desc: Placeholder Description
+    background: images/thumbnail_sculpting.jpg
 
 footer_entries:
   - title: Homepage

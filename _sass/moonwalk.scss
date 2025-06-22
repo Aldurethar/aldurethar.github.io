@@ -211,6 +211,11 @@ p code, li code {
     text-align: center;
 }
 
+.image-grid figure {
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
 .image-grid img {
     width: 100%;
     height: auto;
@@ -260,12 +265,4 @@ p code, li code {
 
 .video-row figcaption {
 	text-align: center;
-}
-
-.video-row.vid-2 video {
-  width: calc((100% - 20px) / 2);
-}
-
-.video-row.vid-3 video {
-  width: calc((100% - 40px) / 3);
 }

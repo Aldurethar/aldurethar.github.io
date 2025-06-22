@@ -20,7 +20,15 @@ The system does not differentiate between emitters and particles, freely letting
 Additionally, the system allows for one-sided parenting relations between particles of the same layer (each particle may have a single parent whose data it can access, but does not know anything about its children).
 This enabled straightforward implementations of particle ribbons, but could also be used for some more "creative" particle effects like this *wacky waving inflatable arm flailing tube man* that I built to internally demo the tech:
 
-(TODO: insert video or gif of tube man here) Caption: implementing a little air pressure simulation in particles was a fun exercise
+<div class="video-row" >
+	<figure>
+		<video autoplay muted loop playsinline preload="metadata">
+			<source src="/images/KKP5_tubeman.mp4?v=4" type="video/mp4">
+			Could not load the video		
+		</video >
+		<figcaption>Implementing a little air pressure simulation in particles was a fun exercise</figcaption>
+	</figure>
+</div >
 
 For rendering, particles can output a variety of geometry, from billboards and ribbons to instances of mesh assets and even individual triangles for fully procedural geometry.
 All geometry gets appended to GPU buffers and rendered via indirect draw.
@@ -37,7 +45,12 @@ Probably the most technologically interesting feature to implement was what we t
 These are variables that automatically generate little UI widgets to edit their values in real time, passing them into the the simulation through a constant buffer.
 They are then freely usable in the snippets code and were used to quickly iterate on particle behaviors as well as customize behaviors that were used across multiple different particle effects.
 
-(TODO: insert screenshot of stabilizer with all its widgets and an open vfx) Caption: Stabilizer's User Interface in all its glory
+<div class="image-grid">
+	<figure >
+		<img src="/images/KKP5_Level01.png" alt="Particle editor screenhot">
+		<figcaption>Stabilizer's User Interface in all its glory</figcaption>
+	</figure>
+</div>
 
 Working on the particle runtime and editor was a great learning experience, as it was my biggest (mostly) solo task in my time at Kaiko. 
 Designing a fully GPU-based runtime architecture was fascinating and took some iteration to get right.

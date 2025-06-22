@@ -11,7 +11,14 @@ The game was built entirely on in-house technology, and the main part of my work
 
 Being such a small team, I got to work on many different parts of the renderer, which was a great learning experience.
 
-TODO: add a gallery of general screenshots from the game here
+<div class="image-grid">
+	<div class="item">
+		<img src="/images/KKP_Level01.png" alt="Game Screenshot 1">
+	</div>
+	<div class="item">
+		<img src="/images/KKP_Level01.png" alt="Game Screenshot 1">
+	</div>
+</div>
 
 The renderer features that I worked on include:
 
@@ -27,7 +34,22 @@ The renderer features that I worked on include:
 - Implementing a custom Tonemapper with an adjustable curve
 - Prototype Implementation of Light Propagation Volumes
 
-TODO: screenshots of specific features
+<div class="video-row vid-2" >
+	<figure>
+		<video autoplay muted loop playsinline preload="metadata">
+			<source src="/images/KKP5_pbrshader.mp4?v=4" type="video/mp4">
+			Could not load the video		
+		</video >
+		<figcaption>PBR shader</figcaption>
+	</figure>
+	<figure>
+		<video autoplay muted loop playsinline preload="metadata">
+			<source src="/images/KKP5_foliageshader.mp4?v=4" type="video/mp4">
+			Could not load the video		
+		</video >
+		<figcaption>Foliage shader</figcaption>
+	</figure>
+</div >
 
 I also implemented some tool functionality to integrate with our renderer, such as:
 

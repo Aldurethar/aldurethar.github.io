@@ -12,12 +12,10 @@ The game was built entirely on in-house technology, and the main part of my work
 Being such a small team, I got to work on many different parts of the renderer, which was a great learning experience.
 
 <div class="image-grid">
-	<div class="item">
-		<img src="/images/KKP5_Level01.png" alt="Game Screenshot 1">
-	</div>
-	<div class="item">
-		<img src="/images/KKP5_Level02.png" alt="Game Screenshot 2">
-	</div>
+	<img src="/images/KKP5_Level01.png" alt="Game Screenshot 1">
+	
+	<img src="/images/KKP5_Level02.png" alt="Game Screenshot 2">
+	
 </div>
 
 The renderer features that I worked on include:
@@ -34,15 +32,15 @@ The renderer features that I worked on include:
 - Implementing a custom Tonemapper with an adjustable curve
 - Prototype Implementation of Light Propagation Volumes
 
-<div class="video-row" >
-	<figure style="width: calc((100% - 20px) / 2);">
+<div class="video-row vid-2" >
+	<figure>
 		<video autoplay muted loop playsinline preload="metadata">
 			<source src="/images/KKP5_pbrshader.mp4?v=4" type="video/mp4">
 			Could not load the video		
 		</video >
 		<figcaption>PBR shader</figcaption>
 	</figure>
-	<figure style="width: calc((100% - 20px) / 2);">
+	<figure>
 		<video autoplay muted loop playsinline preload="metadata">
 			<source src="/images/KKP5_foliageshader.mp4?v=4" type="video/mp4">
 			Could not load the video		
@@ -51,22 +49,15 @@ The renderer features that I worked on include:
 	</figure>
 </div >
 
-<div class="video-row" >
-	<figure style="width: calc((100% - 40px) / 3);">
+<div class="video-row vid-2" >
+	<figure>
 		<video autoplay muted loop playsinline preload="metadata">
 			<source src="/images/KKP5_terrain.mp4?v=4" type="video/mp4">
 			Could not load the video		
 		</video >
 		<figcaption>Terrain shader</figcaption>
-	</figure>
-	<figure style="width: calc((100% - 40px) / 3);">
-		<video autoplay muted loop playsinline preload="metadata">
-			<source src="/images/KKP5_depth_of_field.mp4?v=4" type="video/mp4">
-			Could not load the video		
-		</video >
-		<figcaption>Depth of field</figcaption>
-	</figure>
-	<figure style="width: calc((100% - 40px) / 3);">
+	</figure>	
+	<figure>
 		<video autoplay muted loop playsinline preload="metadata">
 			<source src="/images/KKP5_ghost_dissolve.mp4?v=4" type="video/mp4">
 			Could not load the video		
@@ -74,6 +65,16 @@ The renderer features that I worked on include:
 		<figcaption>Dissolving ghost shader</figcaption>
 	</figure>
 </div >
+
+<div class="video-row" >
+	<figure>
+		<video autoplay muted loop playsinline preload="metadata">
+			<source src="/images/KKP5_depth_of_field.mp4?v=4" type="video/mp4">
+			Could not load the video		
+		</video >
+		<figcaption>Depth of field</figcaption>
+	</figure>
+</div>
 
 I also implemented some tool functionality to integrate with our renderer, such as:
 

@@ -4,8 +4,6 @@ title: "Particles in Kaiko Project 5"
 author: Jan Enders
 ---
 
-Notice: This article is still under construction!
-
 In my three years at KAIKO, I worked on "Project 5", a top-down action adventure from a beloved THQNordic IP that sadly did not make it to release.
 We built the game entirely on in-house technology, and besides working on the [renderer](/kkp5-renderer), another of my tasks was designing and implementing our own particle runtime and editor.
 
@@ -47,7 +45,7 @@ They are then freely usable in the snippets code and were used to quickly iterat
 
 <div class="image-grid">
 	<figure >
-		<img src="/images/KKP5_Level01.png" alt="Particle editor screenhot">
+		<img src="/images/KKP5_stabilizer.png" alt="Particle editor screenhot">
 		<figcaption>Stabilizer's User Interface in all its glory</figcaption>
 	</figure>
 </div>

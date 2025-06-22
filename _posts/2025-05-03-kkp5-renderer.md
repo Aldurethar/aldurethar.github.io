@@ -51,6 +51,30 @@ The renderer features that I worked on include:
 	</figure>
 </div >
 
+<div class="video-row" >
+	<figure style="width: calc((100% - 40px) / 3);">
+		<video autoplay muted loop playsinline preload="metadata">
+			<source src="/images/KKP5_terrain.mp4?v=4" type="video/mp4">
+			Could not load the video		
+		</video >
+		<figcaption>Terrain shader</figcaption>
+	</figure>
+	<figure style="width: calc((100% - 40px) / 3);">
+		<video autoplay muted loop playsinline preload="metadata">
+			<source src="/images/KKP5_depth_of_field.mp4?v=4" type="video/mp4">
+			Could not load the video		
+		</video >
+		<figcaption>Depth of field</figcaption>
+	</figure>
+	<figure style="width: calc((100% - 40px) / 3);">
+		<video autoplay muted loop playsinline preload="metadata">
+			<source src="/images/KKP5_ghost_dissolve.mp4?v=4" type="video/mp4">
+			Could not load the video		
+		</video >
+		<figcaption>Dissolving ghost shader</figcaption>
+	</figure>
+</div >
+
 I also implemented some tool functionality to integrate with our renderer, such as:
 
 - Filtering HDR cubemaps into irradiance maps
